@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="MIT"
+
+[[mods]]
+modId="nicknamemod"
+version="1.0.0"
+displayName="Nickname Mod"
+description="Permet aux joueurs de changer leur nom affiché avec commandes admin"
+authors="Snow"
+credits="Merci à la communauté Forge"
+
+[[dependencies.nicknamemod]]
+modId="forge"
+mandatory=true
+versionRange="[36.2.34,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.nicknamemod]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.16.5]"
+ordering="NONE"
+side="BOTH"
